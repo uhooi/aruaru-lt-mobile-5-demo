@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2C3C8B7622DCACAE00F4F82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7522DCACAE00F4F82D /* AppDelegate.swift */; };
-		2C3C8B7822DCACAE00F4F82D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7722DCACAE00F4F82D /* ViewController.swift */; };
+		2C3C8B7822DCACAE00F4F82D /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7722DCACAE00F4F82D /* ViewController1.swift */; };
 		2C3C8B7B22DCACAE00F4F82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7922DCACAE00F4F82D /* Main.storyboard */; };
 		2C3C8B7D22DCACB100F4F82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7C22DCACB100F4F82D /* Assets.xcassets */; };
 		2C3C8B8022DCACB100F4F82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3C8B7E22DCACB100F4F82D /* LaunchScreen.storyboard */; };
 		2C3C8B8B22DCACB100F4F82D /* aruaru_lt_mobile_5_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8B8A22DCACB100F4F82D /* aruaru_lt_mobile_5_demoTests.swift */; };
 		2C3C8B9622DCACB100F4F82D /* aruaru_lt_mobile_5_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8B9522DCACB100F4F82D /* aruaru_lt_mobile_5_demoUITests.swift */; };
+		2C3C8BA422DCAEE900F4F82D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C8BA322DCAEE900F4F82D /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		2C3C8B7222DCACAE00F4F82D /* aruaru-lt-mobile-5-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aruaru-lt-mobile-5-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3C8B7522DCACAE00F4F82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3C8B7722DCACAE00F4F82D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C3C8B7722DCACAE00F4F82D /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		2C3C8B7A22DCACAE00F4F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3C8B7C22DCACB100F4F82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3C8B7F22DCACB100F4F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		2C3C8B9122DCACB100F4F82D /* aruaru-lt-mobile-5-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aruaru-lt-mobile-5-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3C8B9522DCACB100F4F82D /* aruaru_lt_mobile_5_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aruaru_lt_mobile_5_demoUITests.swift; sourceTree = "<group>"; };
 		2C3C8B9722DCACB100F4F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3C8BA322DCAEE900F4F82D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				2C3C8B7522DCACAE00F4F82D /* AppDelegate.swift */,
-				2C3C8B7722DCACAE00F4F82D /* ViewController.swift */,
+				2C3C8B7722DCACAE00F4F82D /* ViewController1.swift */,
 				2C3C8B7922DCACAE00F4F82D /* Main.storyboard */,
 				2C3C8B7C22DCACB100F4F82D /* Assets.xcassets */,
 				2C3C8B7E22DCACB100F4F82D /* LaunchScreen.storyboard */,
 				2C3C8B8122DCACB100F4F82D /* Info.plist */,
+				2C3C8BA322DCAEE900F4F82D /* ViewController2.swift */,
 			);
 			path = "aruaru-lt-mobile-5-demo";
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3C8B7822DCACAE00F4F82D /* ViewController.swift in Sources */,
+				2C3C8B7822DCACAE00F4F82D /* ViewController1.swift in Sources */,
 				2C3C8B7622DCACAE00F4F82D /* AppDelegate.swift in Sources */,
+				2C3C8BA422DCAEE900F4F82D /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
