@@ -40,17 +40,41 @@
         <!--View Controller2-->
         <scene sceneID="WLQ-vE-iL2">
             <objects>
-                <viewController id="wjz-y7-SJD" customClass="ViewController2" customModule="aruaru_lt_mobile_5_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController2" id="wjz-y7-SJD" customClass="ViewController2" customModule="aruaru_lt_mobile_5_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gBm-sf-ba1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Uhooi" translatesAutoresizingMaskIntoConstraints="NO" id="q7L-OB-YTk">
+                                <rect key="frame" x="117" y="358" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="V05-Sf-XLF"/>
+                                    <constraint firstAttribute="width" secondItem="q7L-OB-YTk" secondAttribute="height" multiplier="1:1" id="xeE-LV-3AC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="よくぞここまで辿り着いた" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a3-xt-4a5">
+                                <rect key="frame" x="103" y="297" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="q7L-OB-YTk" firstAttribute="top" secondItem="3a3-xt-4a5" secondAttribute="bottom" constant="40" id="GEL-jc-yIQ"/>
+                            <constraint firstItem="q7L-OB-YTk" firstAttribute="centerX" secondItem="gBm-sf-ba1" secondAttribute="centerX" id="c8q-FC-WdK"/>
+                            <constraint firstItem="q7L-OB-YTk" firstAttribute="centerY" secondItem="gBm-sf-ba1" secondAttribute="centerY" id="eqP-Uf-QfS"/>
+                            <constraint firstItem="3a3-xt-4a5" firstAttribute="centerX" secondItem="gBm-sf-ba1" secondAttribute="centerX" id="ied-I7-UlA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UOz-z3-Dle"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N5X-az-WAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1274" y="94"/>
+            <point key="canvasLocation" x="1922" y="113"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Uhooi" width="256" height="256"/>
+    </resources>
 </document>
