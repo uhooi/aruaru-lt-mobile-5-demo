@@ -16,7 +16,7 @@ final class ViewController1: UIViewController {
         let vc2 = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(withIdentifier: "ViewController3")
             as! ViewController2
-        self.navigationController?.pushViewController(vc2, animated: true)
+        present(vc2, animated: true)
     }
     
     // MARK: View Lifecycle
